@@ -1,2 +1,2 @@
 # claire-walter
-Claire Walter landing page
+Claire Walter Brand Partnerships landing page
