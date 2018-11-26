@@ -1,5 +1,5 @@
 
-
+/* MOBILE FIRST FORMAT */
 
 body {
   	background-color: rgb(247, 245, 244);
@@ -18,7 +18,8 @@ h2 {
 	text-align: center;
 	padding: 0 0 0 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: .8em;
+
 }
 
 p {
@@ -59,66 +60,82 @@ p {
 }
 
 footer {
+	margin: auto;
 	padding-top: 50px;
-	display: flex;
-	flex-direction: row;
+	text-align: center;
 	justify-content: center;
 }
 
 button {
-	display: flex;
+  	display: flex;
 	flex-direction: row;
-  background: white;
-  font-family: 'Montserrat', sans-serif;
-  justify-content: center;
-  margin: auto;
-  padding: auto;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  border-radius: 10px;
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+	margin: auto;
+	padding: auto;
+
 }
 
 .purchase {
-  display: block;
-  color: #847577;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 20px 10px 20px;
-  margin: 20px auto auto auto;
-  border-style: none;
+    display: block;
+    color: #847577;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto auto auto;
+    border-style: none;
+}
+
+.insta-links {
+    color: #847577;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto auto auto;
+    border-style: none;
 }
 
 a {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #847577;
-  text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #847577;
+	text-decoration: none;
 }
 
 .overlay {
 	display: none;
 }
 
+/* COLLAPSE/REVEAL BUTTONS 
 .collapsible {
-  cursor: pointer;
-  border: none;
-  text-align: left;
-  outline: none;
+	cursor: pointer;
+	border: none;
+	text-align: left;
+	outline: none;
 }
 
 .active, .collapsible:hover {
-  background-color:
+	background-color:
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+	padding: 0 18px;
+	max-height: 0;
+	display: none;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
 
+COLLAPSE/REVEAL BUTTONS */
 
+
+
+/* DESKTOP FORMAT BELOW */
 
 @media only screen and (min-width: 768px) {
 
@@ -132,7 +149,7 @@ a {
 	h2 {
 		margin-top: 0;
 		text-align: left;
-		padding: 0 0 0 0;
+		padding: 0 0 0 10px;
 	}
 
 	.header-light {
