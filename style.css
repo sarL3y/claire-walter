@@ -58,12 +58,23 @@ p {
 	justify-content: center;
 }
 
+footer {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 button {
+	display: flex;
+	flex-direction: row;
   background: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   justify-content: center;
   margin: auto;
   padding: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
 }
 
 .purchase {
