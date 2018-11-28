@@ -116,7 +116,7 @@ button {
 }
 
 .insta-links {
-    color: rgb(185, 169, 171);
+    color: rgb(82, 69, 71);
     font-size: 20px;
     text-align: center;
     text-decoration: underline;
@@ -265,6 +265,10 @@ COLLAPSE/REVEAL BUTTONS */
 
 	.box:hover .overlay {
   		opacity: .75;
+	}
+
+	.insta-links {
+		color: rgb(185, 169, 171);
 	}
 
 	.insta-links:hover {
