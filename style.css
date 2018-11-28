@@ -107,12 +107,13 @@ button {
 	position: relative;
     color: #847577;
     font-size: 90%;
-    text-align: center;
+    text-align: ;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 0px 10px;
     margin: auto;
     border-style: none;
+    vertical-align: text-bottom;
 }
 
 .insta-links {
@@ -140,6 +141,10 @@ a {
 
 .collapsible {
 
+}
+
+.hidden {
+	display: none;
 }
 
 
