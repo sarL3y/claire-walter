@@ -65,7 +65,7 @@ p {
 	background-color: #FFFFFF;
 	margin: 5% auto;
 	width: 175px;
-	height: 375px;
+	height: 390px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-radius: 10px;
 
@@ -102,8 +102,8 @@ button {
 }
 
 .discount {
-	display: block;
-	position: relative;
+    display: block;
+    position: relative;
     color: #847577;
     font-size: 90%;
     text-align: center;
